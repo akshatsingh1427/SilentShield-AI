@@ -21,6 +21,7 @@ No Cloud · No Tracking · No Data Collection · 100% Local AI
 
 <img src="https://img.shields.io/badge/Machine-Learning-orange?style=for-the-badge">
 <img src="https://img.shields.io/badge/On--Device-AI-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
 <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
 
 <br><br>
@@ -31,8 +32,17 @@ No Cloud · No Tracking · No Data Collection · 100% Local AI
 
 ---
 
+## 🎥 Demo Video
+
+**[▶ Watch the Demo](https://www.youtube.com/watch?v=yfxX78QJcbM)**
+
+A walkthrough of the problem, the solution, and the on-device AI component working end to end.
+
+---
+
 ## 📋 Table of Contents
 
+- [Demo Video](#-demo-video)
 - [Overview](#-overview)
 - [Why SilentShield AI?](#-why-silentshield-ai)
 - [At a Glance](#-at-a-glance)
@@ -59,6 +69,7 @@ No Cloud · No Tracking · No Data Collection · 100% Local AI
 - [Acknowledgements](#-acknowledgements)
 - [Contact](#-contact)
 - [Support](#-support)
+- [License](#-license)
 
 ---
 
@@ -165,14 +176,14 @@ No OpenAI, no Gemini, no cloud AI, no external API — everything runs locally.
 <br><br>
 
 **📂 Scan History**
-<img width="95%" src="screenshots/history.png" alt="History">
+<img width="85%" src="screenshots/history.png" alt="History">
 
 *Every completed scan stored locally in the browser — revisit previous reports anytime.*
 
 <br><br>
 
 **📄 PDF Analysis**
-<img width="95%" src="screenshots/pdf.png" alt="PDF Analysis">
+<img width="85%" src="screenshots/pdf.png" alt="PDF Analysis">
 
 *Extracts text directly inside the browser before running AI analysis.*
 
@@ -618,6 +629,12 @@ Data Science & Analytics Intern @ WeIntern · Technical Head @ Dice Hub, JIIT
 ## ⭐ Support
 
 If you found this project useful, please consider starring the repository, forking the project, contributing improvements, or sharing it with others. Your support helps improve the project and encourages future open-source development.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE) — you're free to use, modify, and distribute it with proper attribution.
 
 ---
 
