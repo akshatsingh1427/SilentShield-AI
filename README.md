@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="screenshots/banner.png" alt="SilentShield-AI Banner" width="100%">
+
 # 🛡️ SilentShield AI
 
 ### 🔒 Privacy-First On-Device AI Security Platform
