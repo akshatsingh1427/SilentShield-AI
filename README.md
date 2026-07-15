@@ -165,14 +165,14 @@ No OpenAI, no Gemini, no cloud AI, no external API — everything runs locally.
 <br><br>
 
 **📂 Scan History**
-<img width="85%" src="screenshots/history.png" alt="History">
+<img width="95%" src="screenshots/history.png" alt="History">
 
 *Every completed scan stored locally in the browser — revisit previous reports anytime.*
 
 <br><br>
 
 **📄 PDF Analysis**
-<img width="85%" src="screenshots/pdf.png" alt="PDF Analysis">
+<img width="95%" src="screenshots/pdf.png" alt="PDF Analysis">
 
 *Extracts text directly inside the browser before running AI analysis.*
 
