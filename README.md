@@ -26,6 +26,12 @@ No Cloud · No Tracking · No Data Collection · 100% Local AI
 
 <br><br>
 
+[![Live Demo](https://img.shields.io/badge/🚀-Live%20Demo-success?style=for-the-badge)](https://silent-shield-ai-chi.vercel.app)
+[![Backend](https://img.shields.io/badge/API-Render-blue?style=for-the-badge)](https://silentshield-ai.onrender.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+
+<br><br>
+
 [**Features**](#-key-features) · [**Screenshots**](#-screenshots) · [**Architecture**](#️-system-architecture) · [**Installation**](#-installation) · [**API**](#-api-documentation)
 
 </div>
@@ -40,9 +46,20 @@ A walkthrough of the problem, the solution, and the on-device AI component worki
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **Application:** https://silent-shield-ai-chi.vercel.app
+
+🔗 **Backend API:** https://silentshield-ai.onrender.com
+
+> **Note:** The backend is hosted on Render's free tier. If the application has been idle, the first request may take **30–60 seconds** while the backend wakes up.
+
+---
+
 ## 📋 Table of Contents
 
 - [Demo Video](#-demo-video)
+- [Live Demo](#-live-demo)
 - [Overview](#-overview)
 - [Why SilentShield AI?](#-why-silentshield-ai)
 - [At a Glance](#-at-a-glance)
@@ -64,6 +81,7 @@ A walkthrough of the problem, the solution, and the on-device AI component worki
 - [Learning Outcomes](#-learning-outcomes)
 - [Project Goals](#-project-goals)
 - [Future Roadmap](#-future-roadmap)
+- [Deployment](#-deployment)
 - [Contributing](#-contributing)
 - [Reporting Issues](#-reporting-issues)
 - [Acknowledgements](#-acknowledgements)
@@ -80,6 +98,14 @@ A walkthrough of the problem, the solution, and the on-device AI component worki
 Unlike traditional cloud-based security tools, SilentShield performs **all AI inference locally** using a custom Machine Learning model. No sensitive information is transmitted to external servers, ensuring complete privacy and low-latency analysis.
 
 The project was developed as an **On-Device AI** solution, demonstrating how intelligent cybersecurity systems can operate entirely on a user's machine without relying on cloud AI services.
+
+### 🌟 Live Application
+
+Try SilentShield AI instantly in your browser without any installation:
+
+**Frontend:** https://silent-shield-ai-chi.vercel.app
+
+The application communicates with a FastAPI backend hosted on Render while demonstrating the complete AI-powered phishing detection workflow.
 
 ---
 
@@ -140,6 +166,10 @@ Generate professional security reports for investigation, documentation, and inc
 
 ### 🔒 Privacy First
 No OpenAI, no Gemini, no cloud AI, no external API — everything runs locally.
+
+### 🚀 Deployment & Hosting
+- 🌐 Live web application hosted on Vercel
+- ⚡ FastAPI backend deployed on Render
 
 ---
 
@@ -562,6 +592,21 @@ SilentShield AI was built with four primary goals:
 - [ ] Threat timeline and trends
 
 **Long-term vision:** SilentShield AI aims to evolve into a comprehensive on-device cybersecurity assistant — covering browser protection, email security, mobile security, enterprise deployment, an offline AI assistant, real-time monitoring, explainable AI dashboards, and local LLM-powered investigations.
+
+---
+
+## 🚀 Deployment
+
+| Service | Platform | URL |
+|----------|----------|-----|
+| Frontend | Vercel | https://silent-shield-ai-chi.vercel.app |
+| Backend API | Render | https://silentshield-ai.onrender.com |
+
+### Notes
+
+- Backend uses Render's free tier and may require **30–60 seconds** to wake up after inactivity.
+- Core phishing detection is powered by a custom Machine Learning model exposed through a FastAPI REST API.
+- The repository contains everything needed to run the project locally as well.
 
 ---
 
