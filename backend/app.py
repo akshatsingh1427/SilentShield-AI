@@ -9,11 +9,13 @@ app = FastAPI(
     version="1.0"
 )
 
+# CORS Configuration
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://silent-shield-ai-chi.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -25,6 +27,7 @@ print("Loading AI model...")
 model = joblib.load("phishing_model.pkl")
 
 print("✅ Model Loaded Successfully!")
+
 
 class ScanRequest(BaseModel):
     text: str
